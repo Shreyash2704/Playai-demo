@@ -75,7 +75,7 @@
 @media screen and (max-width:720px) {
     .RefferalRoot{
         flex-direction: column-reverse;
-        margin: 0px 0px;
+        margin: 16px 1.5rem;
         padding: 2rem;
     }
     .left,.right{

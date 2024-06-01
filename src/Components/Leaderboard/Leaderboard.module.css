@@ -62,3 +62,8 @@
     column-gap: 8px;
 }
 
+@media screen and (max-width:720px) {
+    .LeaderboardRoot{
+        margin: 14px 1rem;;
+    }
+}
