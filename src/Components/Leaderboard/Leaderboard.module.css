@@ -1,0 +1,64 @@
+.LeaderboardRoot{
+    margin: 15px 9rem;
+    text-transform: uppercase;
+}
+.LeaderBoardTitle{
+    width: fit-content;
+    border-bottom: 2px solid #EE4b4b ;
+    margin-bottom: 2rem;
+}
+.titles{
+    line-height: 1.2;
+    color: #EE4b4b;
+    font-size: 14.4px;
+    padding: 0 16px;
+    font-weight: 600;
+}
+.table table{
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.table table thead tr{
+    background-color:rgba(238, 75, 75, 1);
+    color:#fff;
+    font-size: 12px;
+}
+.table table thead tr th{
+    padding: 12px 24px;
+    text-align: start;
+}
+.table table tbody tr td{
+    padding: 16px 24px;
+    text-align: start;
+}
+.table table tbody tr td:last-child,
+.table table thead tr th:last-child{
+    text-align: end;
+}
+
+.table table tbody tr{
+    background-color: #fff;
+    border-bottom: 1px solid #E2E8F0;
+    font-size: 14px;
+    color: #444;
+}
+.table table{
+    border-collapse: collapse;
+}
+.table tbody tr:last-child td{
+    padding: 12px;
+    padding-top: 24px;
+    font-size: 16px;
+    font-family: sans-serif;
+    /* display: inline-flex; */
+    
+}
+.bookmark{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 8px;
+}
+

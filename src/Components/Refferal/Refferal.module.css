@@ -1,0 +1,90 @@
+.RefferalRoot{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    margin: 15px 10rem;
+    padding: 32px;
+    background-color: #fff;
+    border-top: 2px solid rgba(238, 75, 75, 1);
+    border-bottom: 2px solid rgba(238, 75, 75, 1);
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.left .title{
+    color: rgba(238, 75, 75, 1);
+    font-size: clamp(1.35rem, 2vw, 1.5rem);
+    text-transform: uppercase;
+    font-family: "Subheading Font", sans-serif;
+    /* margin-bottom: 20px; */
+}
+.steplist{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px; 
+}
+.step{
+    display: flex;
+     flex-direction: row;
+    column-gap: 5px;
+    font-family: 'Body Font', sans-serif;
+    font-size: 16px;
+    color:#444;
+    margin-top: 16px;
+
+}
+.step::before{
+    content: url("../../assests/list-arrow.svg");;
+    width:8px;
+    margin-right: 10px;
+}
+.refferal_btn{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: rgba(238, 75, 75, 1) solid 1px;
+    outline-offset: 1px;
+    line-height: 1.2;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    color:rgba(238, 75, 75, 1);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: fit-content;
+    padding:8px 16px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.refferal{
+    height: auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width:720px) {
+    .RefferalRoot{
+        flex-direction: column-reverse;
+        margin: 0px 0px;
+        padding: 2rem;
+    }
+    .left,.right{
+        width:100%;
+    }
+    .title{
+        font-size: 21px;
+    }
+    .steplist .step,.refferal_btn{
+        font-size: 16px;
+    }
+}

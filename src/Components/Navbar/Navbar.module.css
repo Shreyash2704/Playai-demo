@@ -1,0 +1,83 @@
+
+.light{
+    background-color: #fff;
+}
+.nav_bar,.tabs{
+    display: flex;
+    flex-direction: row;
+}
+.nav_bar{
+    display: flex;
+    /* width: calc(100% - 16rem); */
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-left: 8rem;
+    flex-direction: row;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 1;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Heading Font", sans-serif;
+}
+.chakra_text :nth-child(1){
+    color: #EE4b4b;
+}
+.chakra_text :nth-child(2){
+    color: #444444;
+}
+.tabs{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 2rem;
+    text-transform: uppercase;
+    flex-direction: row;
+}
+.tabs a{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 1;
+    text-decoration: none;
+    font-family: "Body Font", sans-serif;
+    color:#444444;
+    font-weight: 400;
+}
+
+.tabs a.active{
+    color: red;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:720px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.25rem;
+    }
+    .menuline{
+        padding: 0.1rem;
+        background: #EE4b4b;
+        width: clamp(1.5rem, 3vw, 2rem);
+        border-radius: 0.15rem;
+    }
+    .tabs{
+        display: none;
+    }
+    .nav_root{
+        
+    }
+    .nav_bar{
+        padding: 1rem;
+        width: calc(100% - 2rem);
+    }
+    .title{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,114 @@
+.LandingAnimationRoot{
+    max-width:100%;
+    text-transform: uppercase;
+}
+.topSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+    font-family: sans-serif;
+}
+.section3,.section4,.section5{
+    height: 90vh;
+    font-family: sans-serif;
+}
+.section2{
+    height: 90vh;
+}
+.topSection .titlelogo{
+    font-size: 20px;
+    color: #444;
+    font-family: "Heading Font", sans-serif;
+    font-weight: 600;
+}
+.topSection .titlelogo span{
+    font-family: "Subheading Font", sans-serif;
+}
+.topSection .enteroasis{
+    font-family: 'Body Font', sans-serif;
+    font-size: 20px;
+    color:#444;
+    font-weight: 600;
+}
+.topSection .enteroasis a{
+    text-decoration: none;
+    color:#444;
+}
+.topSection .enteroasis span,
+.section2 .title1 span{
+    color: #EE4b4b;
+}
+
+.section2 .title{
+    width: fit-content;
+    margin: 1rem auto;
+    text-align: center;
+}
+.section2 .title1{
+    font-size: clamp(2.25rem, 6vw, 5rem);
+    font-family: 'Heading Font', sans-serif;
+}
+.section2 .title2{
+    font-size: clamp(1.35rem, 2vw, 1.5rem);
+
+}
+.section2 .title2 span{
+    font-style: italic;
+}
+.section3 .title{
+    width: fit-content;
+    margin: auto 8rem auto auto;
+}
+.section3 .title .title1{
+    font-size: clamp(1.75rem, 3vw, 2.75rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.section3 .title .title2{
+    text-align: right;
+    font-size: (.9rem, 2vw, 1.1rem);
+}
+.section4 .title{
+    margin-left: 8rem;
+}
+.section4 .title .title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: clamp(1.75rem, 3vw, 2.75rem);
+    margin-bottom: 1rem;
+}
+.section4 .title .title2{
+    font-size: (.9rem, 2vw, 1.1rem);
+}
+
+.section5 .title{
+    width: fit-content;
+    margin: auto 8rem auto auto;
+}
+.section5 .title .title1{
+    font-size: clamp(1.75rem, 3vw, 2.75rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    /* font-family: Petrov Sans-Trial; */
+    /* font-size: 128px; */
+}
+.section5 .title .title2{
+    text-align: left;
+    font-size: (.9rem, 2vw, 1.1rem);
+}
+@media screen and (max-width:720px) {
+    .topSection{
+        padding: 2rem;
+    }
+}
